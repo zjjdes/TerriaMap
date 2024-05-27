@@ -1,0 +1,40 @@
+{
+  "homeCamera": {
+    "north": -36,
+    "east": 146,
+    "south": -39,
+    "west": 143
+  },
+  "viewerMode": "3dSmooth",
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-positron",
+    "previewBaseMapId": "basemap-positron"
+  },
+  "catalog": [
+    {
+      "type": "3d-tiles",
+      "url": "https://storage.googleapis.com/vic-datasets-public/1ce41fe7-aed2-4ad3-be4d-c38b715ce9af/v1/tileset.json",
+      "name": "CoM Melbourne 3D Photo Mesh",
+      "id": "some-unique-id"
+    },
+    {
+      "type": "3d-tiles",
+      "url": "data/route_59_stop_45_direction_flinders/Georeferenced/tiles_cesium/tileset.json",
+      // "ionAssetId": 2594837,
+      "name": "Stop 45 Flinders St",
+      "id": "59-45-1"
+    },
+    {
+      "name": "Tram",
+      "type": "gltf",
+      "url": "data/route_59_stop_45_direction_flinders/Georeferenced/tram_model_simplified.glb",
+      "origin": {
+        "longitude": 144.3569,
+        "latitude": -38.14688,
+        "height": -16
+      },
+      "heightReference": "CLAMP_TO_TERRAIN",
+      "id": "59-45-1-tram"
+    }
+  ]
+}
