@@ -5,6 +5,8 @@
     "tram"
   ],
   "parameters": {
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4OTljODdjOS0wZWRjLTQ0ZDktODE0ZS0wNmMxZjkxM2EzZTEiLCJpZCI6MTk0ODU1LCJpYXQiOjE3MDc0ODI0MjF9.W4ccslyHk8y0a_VdV-ZPqB6LEsHXZbDN9XBH73xgHJI",
+    "bingMapsKey": "AqNZwGlXNMnIISjcnx4FeOX3U6TA83sh7SVBkXe0lJH9-YTBFxfFu0ieMcnk5l0u",
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
@@ -40,11 +42,11 @@
             link: "http://www.example.com"
         },*/
     // This is used in various text messages. You should also set <title> in index.html
-    "appName": "Terria Map",
+    "appName": "UniMelb Geomatics",
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+      "<a target=\"_blank\" href=\"https://infrastructure.eng.unimelb.edu.au/research/geomatics\"><img src=\"images/unimelb.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
       ""
     ],
     // Shown when things go wrong.
@@ -192,14 +194,14 @@
         "itemName": "storymigration",
         "markdownText": "## Share & Story Migration\n\n### Guide on updating share links, including stories\n\nIf you've received a warning telling you that a share link was based off an older version of TerriaJS, you'll want to do a few things to recreate them in the latest version of Terria!\n\n#### Creators\n\n1. Identify the share URL which causes a notification of share preservation effort when loading them into Terria. e.g. you may know where they are embedded, or come across them accidentally\n2. Open them in the newer (v8) based map application \n3. Check that everything is sharing as you expect, tweak the layers to fit if some are missing or not behaving correctly.\n4. Update the share link by clicking the Share/Print button and copy the new link\n5. If distribution of share link is known, update the url in your web page (if embedded), or send the new link to users \n\n#### Consumers\n1. Load the share URL\n2. If it doesn't quite look right, notify the provider so they can follow the above steps to recreate it in the latest version of Terria",
         "title": "Share & Story migration"
-      }
+      },
       // For maps with satellite imagery, also see `showInAppGuides`
-      // {
-      //     "itemName": "satelliteimagery",
-      //     "title": "Satellite Imagery",
-      //     "paneMode": "slider",
-      //     "icon": "satellite"
-      // }
+      {
+        "itemName": "satelliteimagery",
+        "title": "Satellite Imagery",
+        "paneMode": "slider",
+        "icon": "satellite"
+      }
     ],
     "helpContentTerms": [
       {
