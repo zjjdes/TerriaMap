@@ -15,19 +15,44 @@
       "type": "3d-tiles",
       "url": "https://storage.googleapis.com/vic-datasets-public/1ce41fe7-aed2-4ad3-be4d-c38b715ce9af/v1/tileset.json",
       "name": "CoM Melbourne 3D Photo Mesh",
-      "id": "some-unique-id"
+      "id": "com-melbourne"
     },
     {
-      "type": "3d-tiles",
-      "ionAssetId": 2595012,
-      "name": "Stop 45 Flinders St",
-      "id": "59-45-1"
-    },
-    {
-      "type": "3d-tiles",
-      "ionAssetId": 2595698,
-      "name": "Stop 45 Flinders St Tram",
-      "id": "59-45-1-tramc"
+      "id": "59-45-1",
+      "type": "group",
+      "name": "Route 59 Stop 45 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "ionAssetId": 2595012,
+          "name": "Tram Stop",
+          "id": "59-45-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "ionAssetId": 2657909,
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-45-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "ionAssetId": 2657910,
+          "name": "MAL Extended Stowed Level",
+          "id": "59-45-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "ionAssetId": 2657911,
+          "name": "MAL Tram Entry Level",
+          "id": "59-45-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "ionAssetId": 2657913,
+          "name": "MAL Deployed Road Level",
+          "id": "59-45-1-tram-mal-deployed-road"
+        }
+      ]
     }
   ]
 }
