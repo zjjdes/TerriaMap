@@ -1,14 +1,27 @@
 {
   "homeCamera": {
-    "north": -36,
-    "east": 146,
-    "south": -39,
-    "west": 143
+    "north": -37.68951,
+    "east": 145.07891,
+    "south": -37.8561,
+    "west": 144.75972
   },
   "viewerMode": "3dSmooth",
   "baseMaps": {
-    "defaultBaseMapId": "basemap-positron",
-    "previewBaseMapId": "basemap-positron"
+    "items": [
+      {
+        "item": {
+          "type": "wmts",
+          "id": "nearmap",
+          "name": "Nearmap",
+          "url": "https://au0.nearmap.com/maps/api/wmts/v1/apikey/Zjg4MTg2NzYtZWU5MC00ZWNkLTk2NTktNzQyMGQwYWNiZTYx",
+          "layer": "nearmap.com",
+          "opacity": 1
+        },
+        "image": "build/TerriaJS/images/bing-aerial.png"
+      }
+    ],
+    "defaultBaseMapId": "nearmap",
+    "previewBaseMapId": "nearmap"
   },
   "catalog": [
     {
@@ -18,39 +31,503 @@
       "id": "com-melbourne"
     },
     {
-      "id": "59-45-1",
+      "id": "59-24-1",
+      "type": "group",
+      "name": "Route 59 Stop 24 Airport West",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_airport/route_59_stop_24_direction_airport_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-24-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_airport/route_59_stop_24_direction_airport_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-24-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_airport/route_59_stop_24_direction_airport_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-24-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_airport/route_59_stop_24_direction_airport_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-24-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_airport/route_59_stop_24_direction_airport_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-24-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-24-2",
+      "type": "group",
+      "name": "Route 59 Stop 24 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_flinders/route_59_stop_24_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-24-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_flinders/route_59_stop_24_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-24-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_flinders/route_59_stop_24_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-24-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_flinders/route_59_stop_24_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-24-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_24_direction_flinders/route_59_stop_24_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-24-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-25-1",
+      "type": "group",
+      "name": "Route 59 Stop 25 Airport West",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_airport/route_59_stop_25_direction_airport_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-25-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_airport/route_59_stop_25_direction_airport_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-25-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_airport/route_59_stop_25_direction_airport_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-25-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_airport/route_59_stop_25_direction_airport_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-25-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_airport/route_59_stop_25_direction_airport_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-25-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-25-2",
+      "type": "group",
+      "name": "Route 59 Stop 25 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_flinders/route_59_stop_25_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-25-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_flinders/route_59_stop_25_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-25-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_flinders/route_59_stop_25_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-25-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_flinders/route_59_stop_25_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-25-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_25_direction_flinders/route_59_stop_25_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-25-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-26-1",
+      "type": "group",
+      "name": "Route 59 Stop 26 Airport West",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_airport/route_59_stop_26_direction_airport_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-26-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_airport/route_59_stop_26_direction_airport_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-26-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_airport/route_59_stop_26_direction_airport_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-26-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_airport/route_59_stop_26_direction_airport_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-26-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_airport/route_59_stop_26_direction_airport_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-26-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-26-2",
+      "type": "group",
+      "name": "Route 59 Stop 26 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_flinders/route_59_stop_26_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-26-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_flinders/route_59_stop_26_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-26-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_flinders/route_59_stop_26_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-26-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_flinders/route_59_stop_26_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-26-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_26_direction_flinders/route_59_stop_26_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-26-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-27-1",
+      "type": "group",
+      "name": "Route 59 Stop 27 Airport West",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_airport/route_59_stop_27_direction_airport_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-27-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_airport/route_59_stop_27_direction_airport_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-27-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_airport/route_59_stop_27_direction_airport_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-27-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_airport/route_59_stop_27_direction_airport_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-27-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_airport/route_59_stop_27_direction_airport_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-27-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-27-2",
+      "type": "group",
+      "name": "Route 59 Stop 27 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_flinders/route_59_stop_27_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-27-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_flinders/route_59_stop_27_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-27-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_flinders/route_59_stop_27_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-27-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_flinders/route_59_stop_27_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-27-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_27_direction_flinders/route_59_stop_27_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-27-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-30",
+      "type": "group",
+      "name": "Route 59 Stop 30 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_30_direction_flinders/route_59_stop_30_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-30-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_30_direction_flinders/route_59_stop_30_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-30-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_30_direction_flinders/route_59_stop_30_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-30-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_30_direction_flinders/route_59_stop_30_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-30-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_30_direction_flinders/route_59_stop_30_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-30-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-35",
+      "type": "group",
+      "name": "Route 59 Stop 35 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_35_direction_flinders/route_59_stop_35_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-35-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_35_direction_flinders/route_59_stop_35_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-35-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_35_direction_flinders/route_59_stop_35_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-35-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_35_direction_flinders/route_59_stop_35_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-35-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_35_direction_flinders/route_59_stop_35_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-35-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-37",
+      "type": "group",
+      "name": "Route 59 Stop 37 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_37_direction_flinders/route_59_stop_37_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-37-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_37_direction_flinders/route_59_stop_37_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "59-37-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_37_direction_flinders/route_59_stop_37_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "59-37-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_37_direction_flinders/route_59_stop_37_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "59-37-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_37_direction_flinders/route_59_stop_37_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "59-37-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-45",
       "type": "group",
       "name": "Route 59 Stop 45 Flinders St",
       "members": [
         {
           "type": "3d-tiles",
-          "ionAssetId": 2595012,
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_45_direction_flinders/route_59_stop_45_direction_flinders_aligned_3857_ground/tileset.json",
           "name": "Tram Stop",
-          "id": "59-45-1-stop"
+          "id": "59-45-stop"
         },
         {
           "type": "3d-tiles",
-          "ionAssetId": 2657909,
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_45_direction_flinders/route_59_stop_45_direction_flinders_tram_model_simplified/tileset.json",
           "name": "Tram & MAL Deployment Zone",
-          "id": "59-45-1-tram"
+          "id": "59-45-tram"
         },
         {
           "type": "3d-tiles",
-          "ionAssetId": 2657910,
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_45_direction_flinders/route_59_stop_45_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
           "name": "MAL Extended Stowed Level",
-          "id": "59-45-1-mal-extended-stowed"
+          "id": "59-45-mal-extended-stowed"
         },
         {
           "type": "3d-tiles",
-          "ionAssetId": 2657911,
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_45_direction_flinders/route_59_stop_45_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
           "name": "MAL Tram Entry Level",
-          "id": "59-45-1-tram-mal-tram-entry"
+          "id": "59-45-tram-mal-tram-entry"
         },
         {
           "type": "3d-tiles",
-          "ionAssetId": 2657913,
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_45_direction_flinders/route_59_stop_45_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
           "name": "MAL Deployed Road Level",
-          "id": "59-45-1-tram-mal-deployed-road"
+          "id": "59-45-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "59-54",
+      "type": "group",
+      "name": "Route 59 Stop 54 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_54_direction_flinders/route_59_stop_54_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-54-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_54_direction_flinders/route_59_stop_54_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "59-54-tram"
+        }
+      ]
+    },
+    {
+      "id": "59-55",
+      "type": "group",
+      "name": "Route 59 Stop 55 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_55_direction_flinders/route_59_stop_55_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-55-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_55_direction_flinders/route_59_stop_55_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "59-55-tram"
+        }
+      ]
+    },
+    {
+      "id": "59-56",
+      "type": "group",
+      "name": "Route 59 Stop 56 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_56_direction_flinders/route_59_stop_56_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "59-56-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_59_stop_56_direction_flinders/route_59_stop_56_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "59-56-tram"
         }
       ]
     }
