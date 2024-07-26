@@ -530,6 +530,638 @@
           "id": "59-56-tram"
         }
       ]
+    },
+    {
+      "id": "57-19-1",
+      "type": "group",
+      "name": "Route 57 Stop 19 West Maribyrnong",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_wmaribyrnong/route_57_stop_19_direction_wmaribyrnong_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "57-19-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_wmaribyrnong/route_57_stop_19_direction_wmaribyrnong_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "57-19-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_wmaribyrnong/route_57_stop_19_direction_wmaribyrnong_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "57-19-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_wmaribyrnong/route_57_stop_19_direction_wmaribyrnong_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "57-19-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_wmaribyrnong/route_57_stop_19_direction_wmaribyrnong_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "57-19-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "57-19-2",
+      "type": "group",
+      "name": "Route 57 Stop 19 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_flinders/route_57_stop_19_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "57-19-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_flinders/route_57_stop_19_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "57-19-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_flinders/route_57_stop_19_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "57-19-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_flinders/route_57_stop_19_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "57-19-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_19_direction_flinders/route_57_stop_19_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "57-19-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "57-35-1",
+      "type": "group",
+      "name": "Route 57 Stop 35 West Maribyrnong",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_wmaribyrnong/route_57_stop_35_direction_wmaribyrnong_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "57-35-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_wmaribyrnong/route_57_stop_35_direction_wmaribyrnong_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "57-35-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_wmaribyrnong/route_57_stop_35_direction_wmaribyrnong_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "57-35-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_wmaribyrnong/route_57_stop_35_direction_wmaribyrnong_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "57-35-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_wmaribyrnong/route_57_stop_35_direction_wmaribyrnong_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "57-35-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "57-35-2",
+      "type": "group",
+      "name": "Route 57 Stop 35 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_flinders/route_57_stop_35_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "57-35-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_flinders/route_57_stop_35_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "57-35-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_flinders/route_57_stop_35_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "57-35-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_flinders/route_57_stop_35_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "57-35-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_35_direction_flinders/route_57_stop_35_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "57-35-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "57-36-1",
+      "type": "group",
+      "name": "Route 57 Stop 36 West Maribyrnong",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_wmaribyrnong/route_57_stop_36_direction_wmaribyrnong_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "57-36-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_wmaribyrnong/route_57_stop_36_direction_wmaribyrnong_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "57-36-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_wmaribyrnong/route_57_stop_36_direction_wmaribyrnong_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "57-36-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_wmaribyrnong/route_57_stop_36_direction_wmaribyrnong_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "57-36-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_wmaribyrnong/route_57_stop_36_direction_wmaribyrnong_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "57-36-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "57-36-2",
+      "type": "group",
+      "name": "Route 57 Stop 36 Flinders St",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_flinders/route_57_stop_36_direction_flinders_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "57-36-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_flinders/route_57_stop_36_direction_flinders_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "57-36-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_flinders/route_57_stop_36_direction_flinders_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "57-36-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_flinders/route_57_stop_36_direction_flinders_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "57-36-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_57_stop_36_direction_flinders/route_57_stop_36_direction_flinders_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "57-36-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-33-1",
+      "type": "group",
+      "name": "Route 82 Stop 33 Footscray",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_footscray/route_82_stop_33_direction_footscray_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-33-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_footscray/route_82_stop_33_direction_footscray_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "82-33-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_footscray/route_82_stop_33_direction_footscray_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "82-33-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_footscray/route_82_stop_33_direction_footscray_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "82-33-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_footscray/route_82_stop_33_direction_footscray_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "82-33-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-33-2",
+      "type": "group",
+      "name": "Route 82 Stop 33 Moonee Ponds",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_mooneeponds/route_82_stop_33_direction_mooneeponds_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-33-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_mooneeponds/route_82_stop_33_direction_mooneeponds_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "82-33-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_mooneeponds/route_82_stop_33_direction_mooneeponds_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "82-33-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_mooneeponds/route_82_stop_33_direction_mooneeponds_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "82-33-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_33_direction_mooneeponds/route_82_stop_33_direction_mooneeponds_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "82-33-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-35-1",
+      "type": "group",
+      "name": "Route 82 Stop 35 Footscray",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_footscray/route_82_stop_35_direction_footscray_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-35-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_footscray/route_82_stop_35_direction_footscray_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "82-35-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_footscray/route_82_stop_35_direction_footscray_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "82-35-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_footscray/route_82_stop_35_direction_footscray_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "82-35-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_footscray/route_82_stop_35_direction_footscray_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "82-35-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-35-2",
+      "type": "group",
+      "name": "Route 82 Stop 35 Moonee Ponds",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_mooneeponds/route_82_stop_35_direction_mooneeponds_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-35-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_mooneeponds/route_82_stop_35_direction_mooneeponds_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "82-35-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_mooneeponds/route_82_stop_35_direction_mooneeponds_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "82-35-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_mooneeponds/route_82_stop_35_direction_mooneeponds_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "82-35-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_35_direction_mooneeponds/route_82_stop_35_direction_mooneeponds_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "82-35-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-38-1",
+      "type": "group",
+      "name": "Route 82 Stop 38 Footscray",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_footscray/route_82_stop_38_direction_footscray_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-38-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_footscray/route_82_stop_38_direction_footscray_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "82-38-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_footscray/route_82_stop_38_direction_footscray_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "82-38-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_footscray/route_82_stop_38_direction_footscray_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "82-38-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_footscray/route_82_stop_38_direction_footscray_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "82-38-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-38-2",
+      "type": "group",
+      "name": "Route 82 Stop 38 Moonee Ponds",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_mooneeponds/route_82_stop_38_direction_mooneeponds_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-38-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_mooneeponds/route_82_stop_38_direction_mooneeponds_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "82-38-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_mooneeponds/route_82_stop_38_direction_mooneeponds_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "82-38-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_mooneeponds/route_82_stop_38_direction_mooneeponds_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "82-38-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_38_direction_mooneeponds/route_82_stop_38_direction_mooneeponds_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "82-38-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-39-1",
+      "type": "group",
+      "name": "Route 82 Stop 39 Footscray",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_footscray/route_82_stop_39_direction_footscray_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-39-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_footscray/route_82_stop_39_direction_footscray_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "82-39-1-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_footscray/route_82_stop_39_direction_footscray_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "82-39-1-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_footscray/route_82_stop_39_direction_footscray_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "82-39-1-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_footscray/route_82_stop_39_direction_footscray_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "82-39-1-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-39-2",
+      "type": "group",
+      "name": "Route 82 Stop 39 Moonee Ponds",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_mooneeponds/route_82_stop_39_direction_mooneeponds_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-39-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_mooneeponds/route_82_stop_39_direction_mooneeponds_tram_model_simplified/tileset.json",
+          "name": "Tram & MAL Deployment Zone",
+          "id": "82-39-2-tram"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_mooneeponds/route_82_stop_39_direction_mooneeponds_MAL_extended_stowed_level_simplified/tileset.json",
+          "name": "MAL Extended Stowed Level",
+          "id": "82-39-2-mal-extended-stowed"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_mooneeponds/route_82_stop_39_direction_mooneeponds_MAL_deployed_tram_entry_level_simplified/tileset.json",
+          "name": "MAL Tram Entry Level",
+          "id": "82-39-2-tram-mal-tram-entry"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_39_direction_mooneeponds/route_82_stop_39_direction_mooneeponds_MAL_deployed_road_level_simplified/tileset.json",
+          "name": "MAL Deployed Road Level",
+          "id": "82-39-2-tram-mal-deployed-road"
+        }
+      ]
+    },
+    {
+      "id": "82-49-1",
+      "type": "group",
+      "name": "Route 82 Stop 49 Footscray",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_49_direction_footscray/route_82_stop_49_direction_footscray_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-49-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_49_direction_footscray/route_82_stop_49_direction_footscray_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "82-49-1-tram"
+        }
+      ]
+    },
+    {
+      "id": "82-49-2",
+      "type": "group",
+      "name": "Route 82 Stop 49 Moonee Ponds",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_49_direction_mooneeponds/route_82_stop_49_direction_mooneeponds_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-49-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_49_direction_mooneeponds/route_82_stop_49_direction_mooneeponds_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "82-49-2-tram"
+        }
+      ]
+    },
+    {
+      "id": "82-52-1",
+      "type": "group",
+      "name": "Route 82 Stop 52 Footscray",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_52_direction_footscray/route_82_stop_52_direction_footscray_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-52-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_52_direction_footscray/route_82_stop_52_direction_footscray_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "82-52-1-tram"
+        }
+      ]
+    },
+    {
+      "id": "82-52-2",
+      "type": "group",
+      "name": "Route 82 Stop 52 Moonee Ponds",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_52_direction_mooneeponds/route_82_stop_52_direction_mooneeponds_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-52-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_52_direction_mooneeponds/route_82_stop_52_direction_mooneeponds_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "82-52-2-tram"
+        }
+      ]
+    },
+    {
+      "id": "82-53-1",
+      "type": "group",
+      "name": "Route 82 Stop 53 Footscray",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_53_direction_footscray/route_82_stop_53_direction_footscray_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-53-1-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_53_direction_footscray/route_82_stop_53_direction_footscray_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "82-53-1-tram"
+        }
+      ]
+    },
+    {
+      "id": "82-53-2",
+      "type": "group",
+      "name": "Route 82 Stop 53 Moonee Ponds",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_53_direction_mooneeponds/route_82_stop_53_direction_mooneeponds_aligned_3857_ground/tileset.json",
+          "name": "Tram Stop",
+          "id": "82-53-2-stop"
+        },
+        {
+          "type": "3d-tiles",
+          "url": "https://objects.storage.unimelb.edu.au/4320-tram-digital-twin/tram_stop_tiles/route_82_stop_53_direction_mooneeponds/route_82_stop_53_direction_mooneeponds_tram_model_simplified/tileset.json",
+          "name": "Tram & Platform Entrance Zone",
+          "id": "82-53-2-tram"
+        }
+      ]
     }
   ]
 }
